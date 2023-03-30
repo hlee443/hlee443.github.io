@@ -16,6 +16,7 @@ module.exports = {
         DEFAULT: {
           css: {
             color: "#333",
+            textDecoration: "drop-shadow",
             a: {
               textDecoration: "none",
               color: "#0818A8"
