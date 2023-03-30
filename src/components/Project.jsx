@@ -1,5 +1,6 @@
 import myCibo from "../assets/myCibo.jpg";
-import github from "../assets/github-mark.png";
+import { FiGithub} from "react-icons/fi";
+
 import openLink from "../assets/share.png";
 export default function Project({
   img = myCibo,
@@ -42,7 +43,7 @@ export default function Project({
           transition duration-400 hover:scale-110 hover:shadow px-2 py-2 text-xs font-semibold text-black bg-blue-500 bg-opacity-30 rounded-full"
           title="GitHub"
         >
-          <img src={github} alt="Github" width={25} />
+          <FiGithub className="w-6 h-6" />
         </a>
         <a
           href={siteLink} // Replace with the actual site URL

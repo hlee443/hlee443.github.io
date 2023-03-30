@@ -1,4 +1,3 @@
-import github from "../assets/github-mark.png";
 import { FiGithub, FiMail, FiLinkedin } from "react-icons/fi";
 
 export default function Home() {

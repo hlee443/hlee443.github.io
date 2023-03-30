@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Project from "./Project";
 import myCibo from "../assets/myCibo.jpg";
 import wordGotchu from "../assets/wordGotchu.png";
