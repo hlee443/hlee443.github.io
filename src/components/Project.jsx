@@ -1,5 +1,6 @@
 import myCibo from "../assets/myCibo.jpg";
 import { FiGithub} from "react-icons/fi";
+import {FiExternalLink} from "react-icons/fi";
 
 import openLink from "../assets/share.png";
 export default function Project({
@@ -49,10 +50,10 @@ export default function Project({
           href={siteLink} // Replace with the actual site URL
           target="_blank"
           className="inline-block transform 
-          transition duration-400 hover:scale-110 hover:shadow px-2 py-2 mx-1 text-xs font-semibold text-black bg-blue-500 bg-opacity-30 rounded-full"
+          transition duration-400 hover:scale-110 hover:shadow px-2 py-2 text-xs font-semibold text-black bg-blue-500 bg-opacity-30 rounded-full"
           title="Go to site"
         >
-          <img src={openLink} alt="Open Link" width={25} />
+          <FiExternalLink className="w-6 h-6"/>
         </a>
       </div>
     </div>

@@ -34,9 +34,9 @@ function App() {
         </div>
       </section>
 
-      <section id="projects" className="w-full px-5 pt-10 mx-auto prose prose-blue lg:prose-xl lg:pt-40 drop-shadow">
-        <h1>project highlights</h1>
-        <div className="relative items-center w-full mt-0 mx-auto not-prose">
+      <section id="projects" className="py-8 mx-auto max-w-7xl px-5 sm:px-6">
+        <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue drop-shadow-lg">
+          <h1>project highlights</h1>
           <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-8">
             <Projects />
           </div>
