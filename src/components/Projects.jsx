@@ -35,7 +35,7 @@ export default function Projects() {
         img={sidekick}
         siteLink="https://sidekick-front-end.vercel.app/"
         githubLink="https://github.com/BinaryBusters/binary_busters_frontend.git"
-        appHeader="React, Tailwind Flask(Python), OpenAI API, Render, Vercel"
+        appHeader="React, Tailwind, Flask(Python), OpenAI API, Render, Vercel"
         appTitle="Sidekick"
         appDescription="Sidekick - the all-in-one platform designed to help you stay ahead of the curve and excel in your career. Whether you're a recent graduate trying to break into the tech industry or a seasoned professional looking to upgrade your skills, Sidekick provides technical training, real-world practice scenarios, and targeted feedback to help you achieve your professional goals."
       />
