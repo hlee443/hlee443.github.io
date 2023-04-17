@@ -8,6 +8,7 @@ export default function Projects() {
   <>
   <Project
        img={myCibo}
+        siteLink="https://github.com/myCibo/myCiboNative.git"
        githubLink="https://github.com/myCibo/myCiboNative.git"
        appHeader="React Native, Expo Go, CockroachDB, Express, Railway"
        appTitle="myCibo (in development)"
