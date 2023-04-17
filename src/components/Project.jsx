@@ -22,6 +22,7 @@ export default function Project({
         transition duration-400 hover:scale-105 w-full mb-1 lg:h-48 md:h-36 rounded-xl cursor-pointer"
         src={img}
         alt="image"
+        onClick={() => window.open(siteLink)}
       />
       <div className="mb-5">
         {headerItems.map((item, index) => (
