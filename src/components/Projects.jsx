@@ -11,7 +11,7 @@ export default function Projects() {
         siteLink="https://github.com/myCibo/myCiboNative.git"
        githubLink="https://github.com/myCibo/myCiboNative.git"
        appHeader="React Native, Expo Go, CockroachDB, Express, Railway"
-       appTitle="myCibo (in development)"
+       appTitle="myCibo"
        appDescription="myCibo is a comprehensive food management mobile app designed to enhance users culinary experiences by efficiently tracking food inventory, devising customized recipes based on available ingredients, and supporting grocery receipt scanning for replenishing supplies."
      />
   <Project
